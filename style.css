@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4c531;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    font-size: 16px;
+    padding: 1.5em 1em;
+    width: 90vw;
+    max-width: 32em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.display-count {
+    font-size: 5em;
+    padding: 10px 0;
+}
+
+.count-button button {
+    background-color: green;
+    color: white;
+    padding: 12px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    margin-inline: 5px;
+}
+
+.count-button #btn-reset {
+    background-color: red;
+}
